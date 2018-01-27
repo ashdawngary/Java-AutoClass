@@ -1,0 +1,19 @@
+public static void submit(int p) {
+	pw.println(Integer.toString(p));
+	pw.close();
+}
+
+public static void submit(String k) {
+	pw.println(k);
+	pw.close();
+}
+
+public static void submit(double u) {
+	pw.println(Double.toString(u));
+	pw.close();
+}
+
+public static void submit(long lng) {
+	pw.println(Long.toString(lng));
+	pw.close();
+}
